@@ -12,9 +12,6 @@ jobs:
       - name: Checkout Repository
         uses: actions/checkout@v3
 
-      - name: Select Xcode Version
-        run: sudo xcode-select -s /Applications/Xcode_15.2.app
-
       - name: Compile Simulator App
         run: |
           xcodebuild -destination "platform=iOS Simulator,name=iPhone 15" \
