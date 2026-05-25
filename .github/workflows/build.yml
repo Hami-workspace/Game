@@ -10,11 +10,11 @@ jobs:
     runs-on: macos-latest
     steps:
       - name: Checkout Repository
-        uses: actions/checkout@v3
+        # Upgraded from v3 to v4
+        uses: actions/checkout@v4
 
       - name: Compile Simulator App
         run: |
-          # Go inside the project folder where Package.swift is located
           cd TrafficRacer.swiftpm
           
           xcodebuild -destination "platform=iOS Simulator,name=iPhone 15" \
@@ -26,18 +26,14 @@ jobs:
 
       - name: Package for Appetize Simulator
         run: |
-          # Create standard iOS Payload folder at the root
           mkdir -p "$GITHUB_WORKSPACE/Payload"
-          
-          # Copy the compiled .app into the Payload folder
           cp -r "$GITHUB_WORKSPACE/build/TrafficRacer.xcarchive/Products/Applications/TrafficRacer.app" "$GITHUB_WORKSPACE/Payload/"
-          
-          # Go to root and zip the Payload folder
           cd "$GITHUB_WORKSPACE"
           zip -r TrafficRacerSimulator.zip Payload
 
       - name: Upload Simulator Zip
-        uses: actions/upload-artifact@v3
+        # Upgraded from v3 to v4
+        uses: actions/upload-artifact@v4
         with:
           name: Simulator-Build
           path: TrafficRacerSimulator.zip
