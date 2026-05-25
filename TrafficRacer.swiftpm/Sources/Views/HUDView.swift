@@ -359,4 +359,3 @@ extension View {
         modifier(PressGestureModifier(onPress: onPress, onRelease: onRelease))
     }
 }
- Amor
