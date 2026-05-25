@@ -1,0 +1,57 @@
+[
+  {
+    "id": "challenge_1",
+    "challengeNumber": 1,
+    "objectiveText": "Reach the finish line before time runs out!",
+    "targetType": "reachFinishLine",
+    "targetValue": 1500,
+    "targetTimeLimit": 45,
+    "cashReward": 2000,
+    "isCompleted": false,
+    "highHighScore": 0
+  },
+  {
+    "id": "challenge_2",
+    "challengeNumber": 2,
+    "objectiveText": "Reach a top speed of 180 km/h!",
+    "targetType": "reachSpeedLimit",
+    "targetValue": 180,
+    "targetTimeLimit": 30,
+    "cashReward": 3000,
+    "isCompleted": false,
+    "highHighScore": 0
+  },
+  {
+    "id": "challenge_3",
+    "challengeNumber": 3,
+    "objectiveText": "Perform 5 near-misses in under 60 seconds!",
+    "targetType": "performNearMisses",
+    "targetValue": 5,
+    "targetTimeLimit": 60,
+    "cashReward": 4000,
+    "isCompleted": false,
+    "highHighScore": 0
+  },
+  {
+    "id": "challenge_4",
+    "challengeNumber": 4,
+    "objectiveText": "Accumulate 3,000 meters of total distance!",
+    "targetType": "accumulateDistance",
+    "targetValue": 3000,
+    "targetTimeLimit": 90,
+    "cashReward": 5000,
+    "isCompleted": false,
+    "highHighScore": 0
+  },
+  {
+    "id": "challenge_5",
+    "challengeNumber": 5,
+    "objectiveText": "Hold a high speed of 150 km/h for 15 seconds!",
+    "targetType": "holdSpeedDuration",
+    "targetValue": 15,
+    "targetTimeLimit": 45,
+    "cashReward": 6000,
+    "isCompleted": false,
+    "highHighScore": 0
+  }
+]

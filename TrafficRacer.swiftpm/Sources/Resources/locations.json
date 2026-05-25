@@ -1,0 +1,67 @@
+[
+  {
+    "id": "farmland",
+    "name": "Farmland",
+    "skyboxColorHex": "#75D5FD",
+    "ambientLightColorHex": "#3F3E3F",
+    "directionalLightColorHex": "#FFFCE5",
+    "isTwoWay": false,
+    "frictionMultiplier": 1.0,
+    "groundSceneryType": "farmland",
+    "isNight": false,
+    "hasFireworks": false,
+    "unlockRequiredLevel": 1
+  },
+  {
+    "id": "city",
+    "name": "Neon City",
+    "skyboxColorHex": "#05020C",
+    "ambientLightColorHex": "#1A1A2F",
+    "directionalLightColorHex": "#4A0E4E",
+    "isTwoWay": false,
+    "frictionMultiplier": 1.0,
+    "groundSceneryType": "city",
+    "isNight": true,
+    "hasFireworks": false,
+    "unlockRequiredLevel": 2
+  },
+  {
+    "id": "mountain_day",
+    "name": "Mountain (Day)",
+    "skyboxColorHex": "#A2D2FF",
+    "ambientLightColorHex": "#4A4D4A",
+    "directionalLightColorHex": "#FFEAA7",
+    "isTwoWay": true,
+    "frictionMultiplier": 1.0,
+    "groundSceneryType": "mountain",
+    "isNight": false,
+    "hasFireworks": false,
+    "unlockRequiredLevel": 3
+  },
+  {
+    "id": "mountain_night",
+    "name": "Mountain (Night)",
+    "skyboxColorHex": "#0A0D1A",
+    "ambientLightColorHex": "#1E1E2F",
+    "directionalLightColorHex": "#2D305A",
+    "isTwoWay": true,
+    "frictionMultiplier": 1.0,
+    "groundSceneryType": "mountain",
+    "isNight": true,
+    "hasFireworks": true,
+    "unlockRequiredLevel": 4
+  },
+  {
+    "id": "snow",
+    "name": "Frost Snow",
+    "skyboxColorHex": "#E8F1F5",
+    "ambientLightColorHex": "#5A5D66",
+    "directionalLightColorHex": "#EAF4F7",
+    "isTwoWay": false,
+    "frictionMultiplier": 0.4,
+    "groundSceneryType": "snow",
+    "isNight": false,
+    "hasFireworks": false,
+    "unlockRequiredLevel": 5
+  }
+]
